@@ -1,0 +1,59 @@
+{
+    "name": "pinch-zoom3",
+    "version": "1.0.4",
+    "description": "A pinch-zoom component for Vue3",
+    "keywords": [
+        "vue3",
+        "vuejs",
+        "pinchzoom",
+        "vue3-pinch-zoom",
+        "pinch"
+    ],
+    "author": {
+        "name": "mohammad daneshamooz",
+        "email": "mohammad_daneshamooz@yahoo.com"
+    },
+    "license": "ISC",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/pinch-zoom3.umd.js",
+    "module": "./dist/pinch-zoom3.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/pinch-zoom3.es.js",
+            "require": "./dist/pinch-zoom3.umd.js"
+        }
+    },
+    "unpkg": "./dist/pinch-zoom3.umd.js",
+    "jsdelivr": "./dist/pinch-zoom3.umd.js",
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs",
+        "build:library": "vite build",
+        "analyze": "vite build --config analyze.config.js",
+        "publish:library": "npm publish --access public",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+        "format": "prettier .  --write"
+    },
+    "peerDependencies": {
+        "vue": "^3.1.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.2.5",
+        "@vue/compiler-sfc": "^3.1.5",
+        "eslint": "^7.31.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-vue": "^7.14.0",
+        "prettier": "^2.3.2",
+        "rollup-plugin-visualizer": "^5.5.2",
+        "vite": "^2.4.3",
+        "vitepress": "^0.15.6"
+    },
+    "dependencies": {
+        "mitt": "^3.0.0",
+        "tabbable": "^5.2.0",
+        "tippy.js": "^6.3.1"
+    }
+}
