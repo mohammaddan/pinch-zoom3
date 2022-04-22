@@ -1,7 +1,8 @@
 {
     "name": "pinch-zoom3",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A pinch-zoom component for Vue3",
+    "repository": "https://github.com/mohammaddan/pinch-zoom3.git",
     "keywords": [
         "vue3",
         "vuejs",
